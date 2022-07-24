@@ -1,0 +1,381 @@
+ /* body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        } */
+ 
+ #container {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+ 
+ #story_conatiner {
+     display: flex;
+     gap: 10px;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+     position: absolute;
+     left: 0;
+     transition: 0.5s all ease-out;
+     margin-top: 20px;
+ }
+ 
+ #story_conatiner>div {
+     width: 350px;
+     height: 180px;
+     background-color: white;
+     border-radius: 15px;
+ }
+ 
+ .horizent_scroll {
+     width: 90%;
+     height: 300px;
+     background-color: #0398dc;
+     border-radius: 5px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ .horizent_scroll .scroll_btn {
+     background-color: white;
+     padding: 5px 8px;
+     border: 0;
+     border-radius: 5px;
+     margin: 0;
+     z-index: 1;
+ }
+ 
+ .scroll_btn:hover {
+     background-color: thistle;
+ }
+ 
+ #top {
+     width: 100%;
+     height: 380px;
+     background-color: #0398dc;
+ }
+ 
+ #navabr {
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+     width: 100%;
+     height: 60px;
+     background-color: #03a9f4;
+ }
+ 
+ .item1_container {
+     display: flex;
+     padding: 10px;
+     color: #fff;
+     font-size: 20px;
+     gap: 10px;
+ }
+ 
+ #fantasy {
+     display: flex;
+     gap: 5px;
+ }
+ 
+ .item2_container {
+     display: flex;
+     color: #fff;
+     gap: 20px;
+     font-size: 20px;
+     padding: 10px;
+ }
+ 
+ #fantasy img {
+     width: 30px;
+     height: 30px;
+ }
+ 
+ .item_container {
+     padding: 10px;
+ }
+ 
+ .item_container img {
+     width: 150px;
+     height: 30px;
+ }
+ 
+ .item_container>div {
+     cursor: pointer;
+ }
+ 
+ .item1_container>div {
+     cursor: pointer;
+ }
+ 
+ .item2_container>div {
+     cursor: pointer;
+ }
+ 
+ #story_conatiner>div>div {
+     display: flex;
+     gap: 20px;
+     padding: 10px;
+     margin-top: -50px;
+ }
+ 
+ #story_conatiner>div>div>img {
+     width: 30px;
+     height: 30px;
+     margin-top: 16px;
+ }
+ 
+ #story_conatiner>div>h5 {
+     margin-top: -20px;
+ }
+ 
+ #country_name {
+     display: flex;
+     color: #fff;
+     gap: 30px;
+     font-size: 20px;
+     margin-left: 100px;
+ }
+ 
+ #country_name>div {
+     cursor: pointer;
+ }
+ 
+ #country_name {
+     padding: 20px;
+ }
+ 
+ #searchlogo {
+     position: relative;
+     width: 300px;
+     height: 250px;
+     border: 2px solid rgb(131, 126, 126);
+     left: 100px;
+     top: 100px;
+     text-align: center;
+     padding: 10px;
+     border-radius: 15px;
+ }
+ 
+ #imgC {
+     width: 100%;
+     height: 40%;
+ }
+ 
+ #imgC>img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ #btn {
+     display: flex;
+     width: 250px;
+     height: 50px;
+     padding: 10px;
+     justify-content: center;
+     text-align: center;
+     gap: 20px;
+     border-radius: 40px;
+     margin-left: 30px;
+     background-color: #fff;
+     color: #03a9f4;
+     border-color: #03a9f4;
+ }
+ 
+ #btn:hover {
+     background-color: #8ecae4;
+     color: blue;
+ }
+ 
+ .fa-solid {
+     font-size: 24px;
+ }
+ 
+ #p2 {
+     font-size: 20px;
+     margin-top: -1px;
+ }
+ 
+ #key_series {
+     width: 320px;
+     height: 40px;
+     position: relative;
+     border: 2px solid rgb(131, 126, 126);
+     border-radius: 15px 15px 0px 0px;
+     left: 100px;
+     top: 100px;
+ }
+ 
+ #key_series>p {
+     position: relative;
+     font-size: 20px;
+     left: 40px;
+     bottom: 10px;
+ }
+ 
+ #key_container {
+     width: 320px;
+     height: 300px;
+     border: 2px solid rgb(131, 126, 126);
+     border-radius: 0px 0px 15px 15px;
+     position: relative;
+     left: 100px;
+     top: 100px;
+ }
+ 
+ #key_container>div {
+     display: flex;
+     margin-left: 10px;
+     margin-top: 20px;
+     gap: 20px;
+     margin-top: -10px;
+ }
+ 
+ #key_container>div {}
+ 
+ .fa-chevron-right {
+     margin-top: 12px;
+     color: #0398dc;
+ }
+ 
+ #photo {
+     width: 800px;
+     height: 600px;
+     position: relative;
+     left: 450px;
+     top: -500px;
+ }
+ 
+ #photo>img {
+     width: 100%;
+     height: 80%;
+     object-fit: cover;
+     transform: .1s linear;
+ }
+ 
+ #photo>img:hover {
+     transform: scale(1.005);
+ }
+ 
+ #imgbtm {
+     height: 100px;
+     padding: 10px;
+     background-color: black;
+     margin-top: -10px;
+ }
+ 
+ #imgbtm>h3 {
+     color: #fff;
+ }
+ 
+ #imgbtm>h1 {
+     color: #fff;
+ }
+ 
+ #key_right {
+     width: 320px;
+     height: 300px;
+     border: 2px solid rgb(131, 126, 126);
+     position: relative;
+     left: 1300px;
+     bottom: 1120px;
+     border-radius: 15px;
+     padding: 10px;
+ }
+ 
+ #key_right>div {
+     display: flex;
+     gap: 20px;
+ }
+ 
+ #imgcon {
+     width: 340px;
+     height: 860px;
+     border: 2px solid rgb(131, 126, 126);
+     position: relative;
+     left: 1300px;
+     bottom: 1120px;
+     border-radius: 15px;
+     margin-top: 10px;
+ }
+ 
+ #imgcon>div {
+     width: 90%;
+     height: 250px;
+     border: 1px solid rgb(131, 126, 126);
+     margin-left: 6px;
+     margin-top: 10px;
+     border-radius: 15px;
+     padding: 10px;
+ }
+ 
+ #imgcon>div>img {
+     width: 100%;
+     height: 80%;
+     border-radius: 15px 15px 0px 0px;
+ }
+ 
+ #imgcon>div>p {}
+ 
+ #key2 {
+     width: 300px;
+     height: 300px;
+     position: relative;
+     border: 2px solid rgb(131, 126, 126);
+     left: 100px;
+     bottom: 1690px;
+     border-radius: 15px;
+     padding: 10px;
+ }
+ 
+ #key2>div {
+     display: flex;
+     gap: 20px;
+ }
+ 
+ #videocon {
+     display: flex;
+     width: 780px;
+     height: 230px;
+     gap: 10px;
+     border: 2px solid rgb(131, 126, 126);
+     position: relative;
+     bottom: 2000px;
+     left: 450px;
+     padding: 10px;
+ }
+ 
+ #videocon>div {
+     width: 35%;
+     height: 90%;
+     border: 1px solid rgb(131, 126, 126);
+     margin-top: 13px;
+ }
+ 
+ #videocon>div>img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ #footer {
+     display: flex;
+     width: 90%;
+     height: 600px;
+     margin: auto;
+     border: 2px solid rgb(131, 126, 126);
+     margin-top: -1680px;
+     border-radius: 15px;
+     background-color: rgb(205, 204, 204);
+ }
+ 
+ #footer>div {
+     width: 35%;
+     height: 100%;
+     padding: 20px;
+     cursor: pointer;
+ }
